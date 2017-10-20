@@ -37,7 +37,7 @@ public class Encryption {
     public String decrypt(int x) {
         encryptedArray = encrypted.toCharArray();
         for (int i=0; i<length; i++) {
-            encryptedArray[i] -= key + pKey;
+            encryptedArray[i] -= x + pKey;
         }
         encrypted = Arrays.toString(encryptedArray);
         encrypted = encrypted.replaceAll(",", "");
