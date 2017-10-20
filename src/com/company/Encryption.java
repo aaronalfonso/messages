@@ -6,6 +6,7 @@ import java.util.*;
  * Created by aa700 on 10/16/17.
  */
 public class Encryption {
+    
     private double dKey = Math.random() * (Math.random() * 10);
     private char key = (char)dKey;
     private double ppKey = Math.random() * (Math.random() * 10);
